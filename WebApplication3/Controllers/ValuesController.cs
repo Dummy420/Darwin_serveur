@@ -27,6 +27,7 @@ namespace Darwin.Controllers
         public ActionResult<string> Get(string Mail)
         {
             return new JsonResult(Models.Connexion.UserConnexion.GetOne(Mail));
+            //Test
         }
 
         // POST api/values
